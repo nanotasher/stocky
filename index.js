@@ -14,7 +14,7 @@ function onInstallation(bot, installer) {
             if (err) {
                 console.log(err);
             } else {
-                convo.say('I am a bot that has just joined your team');
+                convo.say('Sup.');
                 convo.say('You must now /invite me to a channel so that I can be of use!');
             }
         });
@@ -85,8 +85,8 @@ controller.on('bot_channel_join', function (bot, message) {
     bot.reply(message, "I'm here!")
 });
 
-controller.hears('hello', 'direct_message', function (bot, message) {
-    bot.reply(message, 'Hello!');
+controller.hears('/show JPM', 'direct_message', function (bot, message) {
+    bot.reply(message, "I'm sorry, Dave, but I'm afraid I can't do that.");
 });
 
 

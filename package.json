@@ -1,7 +1,7 @@
 {
-  "name": "easy-peasy-bot",
-  "version": "1.0.0",
-  "description": "The awesomest bot evar.",
+  "name": "Stocky",
+  "version": "0.0.1",
+  "description": "Shows stocks & stuff.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DEGoodmanWilson/easy-peasy-bot-app.git"
+    "url": "git+https://github.com/nanotasher/stocky.git"
   },
   "keywords": [
     "slack",
     "bot"
   ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "Nathan Rose",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app/issues"
+    "url": "https://github.com/nanotasher/stocky/issues"
   },
-  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app#readme",
+  "homepage": "https://github.com/nanotasher/stocky-app#readme",
   "engines": {
     "node": "5.1.1"
   },
